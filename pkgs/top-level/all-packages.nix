@@ -121,6 +121,7 @@ with pkgs;
   ### Nixpkgs maintainer tools
 
   nix-generate-from-cpan = callPackage ../../maintainers/scripts/nix-generate-from-cpan.nix { };
+  alegreya = callPackage ../data/fonts/alegreya { };
 
   nixpkgs-lint = callPackage ../../maintainers/scripts/nixpkgs-lint.nix { };
 
@@ -522,6 +523,7 @@ with pkgs;
   compdb = callPackage ../tools/misc/compdb { };
 
   conserve = callPackage ../tools/backup/conserve { };
+  alegreya = callPackage ../data/fonts/alegreya { };
 
   conserver = callPackage ../tools/misc/conserver { };
 
@@ -27988,6 +27990,7 @@ with pkgs;
 
   faba-mono-icons = callPackage ../data/icons/faba-mono-icons { };
 
+  alegreya = callPackage ../data/fonts/alegreya { };
   ferrum = callPackage ../data/fonts/ferrum { };
 
   fg-virgil = callPackage ../data/fonts/fg-virgil { };
@@ -28523,6 +28526,7 @@ with pkgs;
   pecita = callPackage ../data/fonts/pecita { };
 
   paratype-pt-mono = callPackage ../data/fonts/paratype-pt/mono.nix { };
+  alegreya = callPackage ../data/fonts/alegreya { };
   paratype-pt-sans = callPackage ../data/fonts/paratype-pt/sans.nix { };
   paratype-pt-serif = callPackage ../data/fonts/paratype-pt/serif.nix { };
 
@@ -28606,6 +28610,8 @@ with pkgs;
   scheme-manpages = callPackage ../data/documentation/scheme-manpages { };
 
   scowl = callPackage ../data/misc/scowl { };
+
+  serious-shanns = callPackage ../data/fonts/serious-shanns { };
 
   seshat = callPackage ../data/fonts/seshat { };
 
