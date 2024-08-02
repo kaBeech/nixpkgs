@@ -10295,7 +10295,7 @@
     email = "supermanitu@gmail.com";
     github = "jvanbruegge";
     githubId = 1529052;
-    name = "Jan van Brügge";
+    name = "Jan van Brügge";hs.
     keys = [ { fingerprint = "3513 5CE5 77AD 711F 3825  9A99 3665 72BE 7D6C 78A2"; } ];
   };
   jwatt = {
@@ -10313,7 +10313,7 @@
   jwijenbergh = {
     email = "jeroenwijenbergh@protonmail.com";
     github = "jwijenbergh";
-    githubId = 46386452;
+    githubId = 46386452;hs.
     name = "Jeroen Wijenbergh";
   };
   jwygoda = {
@@ -10352,6 +10352,12 @@
     github = "K900";
     githubId = 386765;
     matrix = "@k900:0upti.me";
+  };
+  kaBeech = {
+    email = "contact@kaBeech.com";
+    name = "Kyle Beechly";
+    github = "kaBeech";
+    githubId = 97925125;
   };
   kachick = {
     email = "kachick1@gmail.com";
